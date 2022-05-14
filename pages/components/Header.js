@@ -24,6 +24,7 @@ function Header() {
                   src="https://links.papareact.com/ocw"
                   layout="fill"
                   objectFit="contain"
+                  alt="mobile logo"
               />
             </div>
             <div className="relative w-10 lg:hidden flex-shrink-0 cursor-pointer">
@@ -31,10 +32,10 @@ function Header() {
                 src="https://links.papareact.com/jjm"
                 layout="fill"
                 objectFit="contain"
-              
+                alt="desktop logo"
               />
             </div>
-
+        
         {/* search input field */}
           <div className="max-w-xs">
             <div className="mt-1 relative p-3 rounded-md">
@@ -45,7 +46,7 @@ function Header() {
               
             </div>
           </div>
-
+          
           {/* right side */}
           <div className="flex items-center justify-end space-x-4">
             <HomeIcon className="navBtn"/>
@@ -61,6 +62,7 @@ function Header() {
             <HeartIcon className="navBtn"/>
 
             <img src="https://links.papareact.com/3ke" alt="profile" className="h-10 w-10 rounded-full cursor-pointer" />
+            
           </div>
         </div>
     </div>
