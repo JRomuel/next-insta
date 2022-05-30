@@ -3,21 +3,21 @@ import Post from "./Post";
 
 const posts = [
     {
-        id: '123',
+        id: '1',
         username: 'romuel',
         userImg: 'https://links.papareact.com/3ke',
         img: 'https://links.papareact.com/3ke',
         caption: 'Let\'s build Instagram 2.0 with REACT.JS! (Next.js, Tailwind CSS, Firebase v9, NextAuth, Recoil)',
     },
     {
-        id: '123',
+        id: '2',
         username: 'romuel',
         userImg: 'https://links.papareact.com/3ke',
         img: 'https://links.papareact.com/3ke',
         caption: 'Let\'s build Instagram 2.0 with REACT.JS! (Next.js, Tailwind CSS, Firebase v9, NextAuth, Recoil)',
     },
     {
-        id: '123',
+        id: '3',
         username: 'romuel',
         userImg: 'https://links.papareact.com/3ke',
         img: 'https://links.papareact.com/3ke',
